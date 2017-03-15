@@ -1,8 +1,49 @@
-html {
-  text-size-adjust: 100%;
-}
 
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+}
+
+.octo {
+  width: 446px;
+  height: 446px;
+  border-radius: 3px;
+  border:  solid #cacaca;
+  padding-top: 20px;
+  /*margin-bottom: 50px;*/
+}
+
+.info {
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  text-align: left;
+  padding: 40px 10px 12px 20px ;
+  margin: 12px 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.number {
+  color: #999;
+  display: inline;
+  /*text-align: center;*/
+}
+.name {
+  display: inline;
+  text-align: right;
+  color: #111;
+}
+
+.image {
+  text-align: center;
+}
+
+.info img {
+  display: inline;
+  text-align: center;
+}
+
+.caption {
+  text-align: right;
+  padding-top: 20px;
 }
