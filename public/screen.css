@@ -1,49 +1,61 @@
-
 body {
   margin: 0;
-  font: 16px / 1 sans-serif;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.octo {
-  width: 446px;
-  height: 446px;
+h1 {
+  font-size: 50px;
+}
+
+.catalog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.boxy {
+  width: 470px;
+  height: 527px;
+  /*background-color: red;*/
+  border-bottom: 1px solid #222;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 20px 40px 20px;
+}
+
+.catimage {
+  width: 450px;
+  height: 450px;
+  background-color: ghostwhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 3px;
-  border:  solid #cacaca;
-  padding-top: 20px;
-  /*margin-bottom: 50px;*/
+  border: 1px solid #888;
 }
 
 .info {
-  font-size: 16px;
-  color: #666;
-  font-weight: bold;
-  text-align: left;
-  padding: 40px 10px 12px 20px ;
-  margin: 12px 0;
-  border-bottom: 1px solid #cacaca;
+  /*background-color: yellow;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
 }
 
-.number {
-  color: #999;
-  display: inline;
-  /*text-align: center;*/
-}
-.name {
-  display: inline;
-  text-align: right;
-  color: #111;
+/*.number {
+  background-color: cornflowerblue;
+}*/
+
+.author {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /*background-color: lawngreen;*/
 }
 
-.image {
-  text-align: center;
-}
-
-.info img {
-  display: inline;
-  text-align: center;
-}
-
-.caption {
-  text-align: right;
-  padding-top: 20px;
+.title {
+  padding-right: 5px;
 }
