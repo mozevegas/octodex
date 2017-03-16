@@ -4,6 +4,44 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header {
+  background-color: #f6f5f6;
+}
+
+header nav {
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  max-width: 1500px;
+  padding: 1em;
+  margin: auto;
+}
+
+
+header ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+}
+
+header li {
+  padding-left: 2em;
+}
+
+@media (max-width: 420px) {
+
+header ul {
+  flex-direction: column;
+}
+
+}
+
 h1 {
   font-size: 50px;
 }
@@ -58,4 +96,16 @@ h1 {
 
 .title {
   padding-right: 5px;
+}
+
+footer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid royalblue;
+  max-width: 950px;
+  margin: auto;
+  padding: 0 20px;
 }
